@@ -6,7 +6,7 @@ Docker image extending [CircleCI Node Image](https://hub.docker.com/r/circleci/n
 
 ```bash
 docker build \
-  -t circle-node-awscli \
+  -t nem035/circle-node-awscli \
   --build-arg NODE_VERSION="8.10.0" \
   --label "CircleCI Node 8.10.0 with AWS cli" \
   .
