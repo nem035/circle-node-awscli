@@ -1,5 +1,7 @@
 # Circle Node AWS Cli Docker Image
 
+Docker image extending [CircleCI Node Image](https://hub.docker.com/r/circleci/node/) and installing [AWS CLI](https://github.com/aws/aws-cli).
+
 - Building an image
 
 ```bash
