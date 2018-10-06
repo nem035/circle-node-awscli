@@ -7,4 +7,6 @@ RUN sudo apt-get update && \
   sudo pip install awscli && \
   sudo apt-get clean
 
-ADD .aws/ /home/circleci/.aws
+ENV AWS_ACCESS_KEY_ID=dummy
+ENV AWS_SECRET_ACCESS_KEY=dummy
+ENV AWS_REGION=dummy
